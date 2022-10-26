@@ -2,13 +2,24 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import Informacionpc from './components/Informacionpc';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    
+    <div className="App"> 
+      <div>
+        <Header
+        titulo="Acer Aspire 5 A515-54  "
+        titulo2="  Dell Inspiron 5593  "
+        titulo3="  Lenovo Legion Y530  "/>
+      </div>
+      
       <div className='contenedor-principal'>
-        <h1>Estos son algunas laptos de buena calidad.</h1>
+        
         <Informacionpc 
+          id='1'
           nombre='Acer aspire 5 A515'
           imagen='acer-aspire-5-A515-54'
           especificacion1='Acer aspire 5 A515'
@@ -18,6 +29,7 @@ function App() {
           especificacion5='Windows 10 Home 64-Bit, Up to 6 hrs Battery Life, Color: Black'
       />
       <Informacionpc 
+      id='2'
       nombre='Dell Inspiron 5593'
       imagen='Dell-Inspiron-5593'
       especificacion1='Memoria RAM: 8 GB.'
@@ -27,6 +39,7 @@ function App() {
       especificacion5='Procesador: Intel® Core™ i5 de 10ma Generación.'
       />
       <Informacionpc 
+      id='3'
       nombre='Lenovo Legion Y530'
       imagen='lenovo-legion'
       especificacion1='Procesador Intel® de 8ª generación Core™ i5-8300H'
@@ -37,6 +50,7 @@ function App() {
      
       />
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -4,11 +4,11 @@ import '../hoja-de-estilos/Informacionpc.css';
 const Informacionpc = (props) =>{
 
     return(
-      <div className='contenedor-informacionpc'>
+      <div className='contenedor-informacionpc' >
         <img className='imagen-pc'
         src={require(`../imagenes/informacionpc-${props.imagen}.jpg`)}
         alt='foto_acer'/> 
-        <div className='contenedor-texto-informacionpc'>
+        <div className='contenedor-texto-informacionpc' id={props.id}>
           <p className='nombre-pc' >
             <strong>{props.nombre}</strong></p>
           <p className='tipo-informacion'>Especificaciones</p>
