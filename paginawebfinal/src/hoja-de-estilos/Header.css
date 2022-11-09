@@ -4,6 +4,11 @@
     align-items: center;
     justify-content: center;
     background-color: #f5f6f7;
-   
-
+    position: fixed;
+    margin-left: -350px;
+    border: 20px solid black;;
+}
+.Logo{
+    display: flex;
+    justify-content: space-between;
 }
