@@ -1,6 +1,6 @@
 .pie_pagina{
     width: 100%;
-    background-color: #16436b;
+    background-color: #20415f;
 
 }
 .pie_pagina .grupo-1{
@@ -46,7 +46,7 @@
     transition: all 300ms ease;
 }
 .pie_pagina .grupo-2{
-    background-color: #0a1a2a;
+    background-color: #20415f;
     padding: 15px 10px;
     text-align: center;
     color: #fff;

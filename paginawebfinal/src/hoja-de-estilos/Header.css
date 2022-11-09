@@ -1,12 +1,14 @@
 .contenedor{
+    width: 1000px;
     padding: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f5f6f7;
     position: fixed;
-    margin-left: -350px;
+    margin-left: -500px;
     border: 20px solid black;;
+    
 }
 .Logo{
     display: flex;
